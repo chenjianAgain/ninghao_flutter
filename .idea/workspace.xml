@@ -6,9 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="copy from preview">
-      <change afterPath="$PROJECT_DIR$/lib/demo/hello_demo.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/demo/listview_demo.dart" afterDir="false" />
+    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="depart demo from main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
@@ -117,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587351157749</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="depart demo from main">
+      <created>1587352359493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587352359493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="copy from preview" />
-    <option name="LAST_COMMIT_MESSAGE" value="copy from preview" />
+    <MESSAGE value="depart demo from main" />
+    <option name="LAST_COMMIT_MESSAGE" value="depart demo from main" />
   </component>
 </project>
