@@ -6,8 +6,8 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="抽屉效果">
-      <change afterPath="$PROJECT_DIR$/lib/demo/drawer_demo.dart" afterDir="false" />
+    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="refactored">
+      <change afterPath="$PROJECT_DIR$/lib/demo/bottomnavigationbar_demo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587400430559</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactored">
+      <created>1587401163767</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587401163767</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +174,7 @@
     <MESSAGE value="Added navigation bar items." />
     <MESSAGE value="水波纹效果" />
     <MESSAGE value="抽屉效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽屉效果" />
+    <MESSAGE value="refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored" />
   </component>
 </project>

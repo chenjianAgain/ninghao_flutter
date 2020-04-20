@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ninghao_flutter/demo/listview_demo.dart';
 import 'package:ninghao_flutter/demo/hello_demo.dart';
 import 'package:ninghao_flutter/demo/drawer_demo.dart';
+import 'package:ninghao_flutter/demo/bottomnavigationbar_demo.dart';
 
 void main() => runApp(App());
 
@@ -22,6 +23,8 @@ class App extends StatelessWidget {
 }
 
 class Home extends StatelessWidget {
+
+
     @override
     Widget build(BuildContext context) {
       return DefaultTabController(
@@ -63,9 +66,13 @@ class Home extends StatelessWidget {
                 Hello()
               ],
             ),
-            drawer: DrawerDemo()
+            drawer: DrawerDemo(),
+          bottomNavigationBar:  BottomNavigationBarDemo()
         ),
       );
     }
+
+
 }
+
 
