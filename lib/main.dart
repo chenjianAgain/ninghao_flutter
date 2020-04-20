@@ -28,11 +28,7 @@ class Home extends StatelessWidget {
         child: Scaffold(
             backgroundColor: Colors.grey[100],
             appBar: AppBar(
-              leading: IconButton(
-                icon: Icon(Icons.menu),
-                tooltip: "Navigation",
-                onPressed: () => debugPrint("Navigation button is pressed!"),
-              ),
+
               actions: <Widget>[
                 IconButton(
                   icon: Icon(Icons.search),
@@ -65,6 +61,39 @@ class Home extends StatelessWidget {
                 ListViewDemo(),
                 Hello()
               ],
+            ),
+            drawer: Drawer(
+              child: ListView(
+                padding: EdgeInsets.zero,
+                children: <Widget>[
+                 UserAccountsDrawerHeader(
+                   accountName: Text(
+                     'Chenjian'.toUpperCase(),
+                     style: TextStyle(fontWeight: FontWeight.bold)
+                   ),
+                   accountEmail: Text('Joseph.siyi@gmail.com'),
+                   currentAccountPicture: CircleAvatar(
+                     backgroundImage: NetworkImage('https://resources.ninghao.org/images/wanghao.jpg'),
+                   ),
+                 ),
+                  ListTile(
+                    title: Text('Message', textAlign: TextAlign.right,),
+                    trailing: Icon(Icons.message, color: Colors.black12, size: 22),
+                    onTap: () => Navigator.pop(context),
+                  ),
+                  ListTile(
+                    title: Text('Favorite', textAlign: TextAlign.right,),
+                    trailing: Icon(Icons.favorite, color: Colors.black12, size: 22),
+                    onTap: () => Navigator.pop(context),
+                  ),
+                  ListTile(
+                    title: Text('Settings', textAlign: TextAlign.right,),
+                    trailing: Icon(Icons.settings, color: Colors.black12, size: 22),
+                    onTap: () => Navigator.pop(context),
+                  ),
+                ],
+
+              ),
             )
         ),
       );

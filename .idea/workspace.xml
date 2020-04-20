@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="Added navigation bar items.">
+    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="水波纹效果">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587352928574</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="水波纹效果">
+      <created>1587354117556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587354117556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +157,7 @@
     <MESSAGE value="copy from preview" />
     <MESSAGE value="depart demo from main" />
     <MESSAGE value="Added navigation bar items." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added navigation bar items." />
+    <MESSAGE value="水波纹效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="水波纹效果" />
   </component>
 </project>
