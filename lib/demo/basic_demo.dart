@@ -3,6 +3,42 @@ import 'package:flutter/material.dart';
 class BasicDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // TODO: implement build
+    return RichTextDemo();
+  }
+
+}
+
+
+class RichTextDemo extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return RichText(
+      text: TextSpan(
+        text: 'ninghao',
+        style: TextStyle(
+          color: Colors.deepPurpleAccent,
+          fontSize: 34.0,
+          fontStyle: FontStyle.italic,
+          fontWeight: FontWeight.w100,
+        ),
+        children: [
+          TextSpan(
+            text: '.net',
+            style: TextStyle(
+              fontSize: 17.0,
+              color: Colors.grey,
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+class TextDemo extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
     final _textStyle = TextStyle(
       fontSize: 20.0,
       fontWeight: FontWeight.bold,
@@ -23,4 +59,5 @@ class BasicDemo extends StatelessWidget {
       ),
     );
   }
+
 }

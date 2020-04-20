@@ -4,7 +4,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="dart ok">
+    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="Text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/demo/basic_demo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/demo/basic_demo.dart" afterDir="false" />
     </list>
@@ -114,13 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587404126361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Text">
+      <created>1587404710924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587404710924</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added basic demo" />
     <MESSAGE value="dart ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="dart ok" />
+    <MESSAGE value="Text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Text" />
   </component>
 </project>
