@@ -4,7 +4,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="RichText">
+    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="Box">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/demo/basic_demo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/demo/basic_demo.dart" afterDir="false" />
     </list>
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587405112634</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Box">
+      <created>1587429674539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587429674539</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +144,7 @@
     <MESSAGE value="dart ok" />
     <MESSAGE value="Text" />
     <MESSAGE value="RichText" />
-    <option name="LAST_COMMIT_MESSAGE" value="RichText" />
+    <MESSAGE value="Box" />
+    <option name="LAST_COMMIT_MESSAGE" value="Box" />
   </component>
 </project>

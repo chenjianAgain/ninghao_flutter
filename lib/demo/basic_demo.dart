@@ -5,16 +5,66 @@ class BasicDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
-      color: Colors.grey[100],
+//      color: Colors.grey[100],
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: NetworkImage(
+            'https://resources.ninghao.org/images/say-hello-to-barry.jpg',
+          ),
+          alignment: Alignment.topCenter,
+          repeat: ImageRepeat.repeat,
+          fit: BoxFit.cover,
+          colorFilter: ColorFilter.mode(Colors.indigoAccent[400], BlendMode.hardLight)
+        )
+      ),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Container(
             child: Icon(Icons.pool, size: 30, color: Colors.white,),
-            color: Color.fromRGBO(3, 54, 255, 1),
+//            color: Color.fromRGBO(3, 54, 255, 1),
             padding: EdgeInsets.all(16),
             margin: EdgeInsets.all(8),
             width: 90,
             height: 90,
+            decoration: BoxDecoration(
+              color: Colors.blue,
+              border: Border.all(
+                  color: Colors.indigoAccent,
+                  width: 3,
+                  style: BorderStyle.solid
+              ),
+//              borderRadius: BorderRadius.only(
+//                topLeft: Radius.circular(46),
+//                bottomLeft: Radius.circular(46),
+//              ),
+              boxShadow: [
+                BoxShadow(
+                  offset: Offset(6,7),
+                  color: Color.fromRGBO(16, 20, 188, 1),
+                  blurRadius: 10,
+                  spreadRadius: -6
+                )
+              ],
+              shape: BoxShape.circle,
+//              gradient: RadialGradient(
+//                colors: [
+//                  Colors.indigoAccent,
+//                  Colors.blue,
+//                  Colors.red
+//                ]
+//              )
+                gradient: LinearGradient(
+                    colors: [
+                      Colors.indigoAccent,
+                      Colors.blue,
+                      Colors.red
+                    ],
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter
+                )
+            ),
+
           )
         ],
       ),
