@@ -4,7 +4,21 @@ class BasicDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return RichTextDemo();
+    return Container(
+      color: Colors.grey[100],
+      child: Row(
+        children: <Widget>[
+          Container(
+            child: Icon(Icons.pool, size: 30, color: Colors.white,),
+            color: Color.fromRGBO(3, 54, 255, 1),
+            padding: EdgeInsets.all(16),
+            margin: EdgeInsets.all(8),
+            width: 90,
+            height: 90,
+          )
+        ],
+      ),
+    );
   }
 
 }
