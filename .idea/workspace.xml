@@ -4,9 +4,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="Box">
+    <list default="true" id="08446ca1-64a3-441b-92fa-23f034e9cdd9" name="Default" comment="gradient">
+      <change afterPath="$PROJECT_DIR$/lib/demo/layout.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/demo/basic_demo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/demo/basic_demo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +42,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/demo" />
     <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/demo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -135,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587429674539</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gradient">
+      <created>1587431230712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587431230713</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +158,7 @@
     <MESSAGE value="Text" />
     <MESSAGE value="RichText" />
     <MESSAGE value="Box" />
-    <option name="LAST_COMMIT_MESSAGE" value="Box" />
+    <MESSAGE value="gradient" />
+    <option name="LAST_COMMIT_MESSAGE" value="gradient" />
   </component>
 </project>
