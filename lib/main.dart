@@ -3,7 +3,7 @@ import './demo/drawer_demo.dart';
 import './demo/bottom_navigation_bar_demo.dart';
 import './demo/listview_demo.dart';
 import './demo/basic_demo.dart';
-import './demo/layout.dart';
+import './demo/layout_demo.dart';
 
 
 void main() => runApp(App());
